@@ -1,0 +1,18 @@
+modLoader = "javafml"
+loaderVersion = "[25,)"
+license = "GNU LGPL 3.0"
+
+[[mods]]
+modId = "mixin_args"
+version = "1.0"
+displayName = "Mixin ModifyArgs Shim"
+authors = "${mod_authors}"
+displayTest = "IGNORE_ALL_VERSION"
+description = '''A simple mod that adds the packages necessary for Mixin's ModifyArgs to work.'''
+
+[[dependencies.mixin_args]]
+modId = "forge"
+mandatory = true
+versionRange = "[25,)"
+ordering = "NONE"
+side = "BOTH"
