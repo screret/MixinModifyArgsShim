@@ -1,0 +1,14 @@
+{
+    "pack": {
+        "description": "Mixin ModifyArgs Shim",
+        "pack_format": 1,
+
+        "min_format": 4,
+        "max_format": 88,
+
+        "supported_formats": {
+            "min_inclusive": 4,
+            "max_inclusive": 88
+        }
+    }
+}
